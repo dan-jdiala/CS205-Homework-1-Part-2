@@ -1,0 +1,56 @@
+First: null
+Removed first: null
+Last: null
+Number of Vehicles in list: 0
+Is list empty: true
+Entire list: 
+Empty List
+Invalid boat length -8: must be between 1 and 1300
+edu.monmouth.vehicle.BoatException: Invalid boat length -8: must be between 1 and 1300
+	at Assignment_1/edu.monmouth.vehicle.Boat.setBoatLength(Boat.java:20)
+	at Assignment_1/edu.monmouth.vehicle.Boat.<init>(Boat.java:10)
+	at Assignment_1/edu.monmouth.hw1.HW1.main(HW1.java:63)
+Invalid engine size -4: must be between 1 and 199
+edu.monmouth.vehicle.CarException: Invalid engine size -4: must be between 1 and 199
+	at Assignment_1/edu.monmouth.vehicle.Car.setEngineSize(Car.java:20)
+	at Assignment_1/edu.monmouth.vehicle.Car.<init>(Car.java:10)
+	at Assignment_1/edu.monmouth.hw1.HW1.main(HW1.java:69)
+After inserting Vehicles: 
+ 1. Vehicle: Bus - Bus Length: 350 | Power Source ELECTRICITY
+ 2. Vehicle: Bus - Bus Length: 560 | Power Source DEISEL
+ 3. Vehicle: Car - Engine Size: 4 | Power Source DEISEL
+ 4. Vehicle: Car - Engine Size: 12 | Power Source ELECTRICITY
+ 5. Vehicle: Boat - Boat Length: 500 | Power Source: DEISEL
+ 6. Vehicle: Boat - Boat Length: 12 | Power Source: GASOLINE
+
+After adding another Vehicle to end: 
+ 1. Vehicle: Bus - Bus Length: 350 | Power Source ELECTRICITY
+ 2. Vehicle: Bus - Bus Length: 560 | Power Source DEISEL
+ 3. Vehicle: Car - Engine Size: 4 | Power Source DEISEL
+ 4. Vehicle: Car - Engine Size: 12 | Power Source ELECTRICITY
+ 5. Vehicle: Boat - Boat Length: 500 | Power Source: DEISEL
+ 6. Vehicle: Boat - Boat Length: 12 | Power Source: GASOLINE
+ 7. Vehicle: Car - Engine Size: 10 | Power Source GASOLINE
+
+First: Bus - Bus Length: 350 | Power Source ELECTRICITY
+Last: Car - Engine Size: 10 | Power Source GASOLINE
+Removed first: Bus - Bus Length: 350 | Power Source ELECTRICITY
+list after removing first: 
+ 1. Vehicle: Bus - Bus Length: 560 | Power Source DEISEL
+ 2. Vehicle: Car - Engine Size: 4 | Power Source DEISEL
+ 3. Vehicle: Car - Engine Size: 12 | Power Source ELECTRICITY
+ 4. Vehicle: Boat - Boat Length: 500 | Power Source: DEISEL
+ 5. Vehicle: Boat - Boat Length: 12 | Power Source: GASOLINE
+ 6. Vehicle: Car - Engine Size: 10 | Power Source GASOLINE
+
+list after adding another Vehicle: 
+ 1. Vehicle: Boat - Boat Length: 900 | Power Source: FUELOIL
+ 2. Vehicle: Bus - Bus Length: 560 | Power Source DEISEL
+ 3. Vehicle: Car - Engine Size: 4 | Power Source DEISEL
+ 4. Vehicle: Car - Engine Size: 12 | Power Source ELECTRICITY
+ 5. Vehicle: Boat - Boat Length: 500 | Power Source: DEISEL
+ 6. Vehicle: Boat - Boat Length: 12 | Power Source: GASOLINE
+ 7. Vehicle: Car - Engine Size: 10 | Power Source GASOLINE
+
+Number of Vehicles in list: 7
+Is list empty: false
